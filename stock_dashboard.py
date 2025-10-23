@@ -26,6 +26,7 @@ def fetch_weekly_price_history(symbol):
 
 
 st.title("Stock Dashboard")
+
 symbol = st.text_input("Enter a stock symbol", "AAPL")
 
 
